@@ -1,0 +1,28 @@
+{
+  "name": "evaluasiapi",
+  "version": "1.0.0",
+  "description": "Evaluasi membuat RESTful API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/drajat2610/evaluasiAPI.git"
+  },
+  "author": "Drajat Pamuji",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/drajat2610/evaluasiAPI/issues"
+  },
+  "homepage": "https://github.com/drajat2610/evaluasiAPI#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.3",
+    "mongoose": "^5.0.12"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.2"
+  }
+}
